@@ -1,5 +1,5 @@
--- Road Classification Symbology (Prioritized)
 /*
+Road Classification Symbology
 Road Type	Color (Hex)	RGB Values	Line Width	Line Style	Draw Order
 Major Roads	#E31A1C	227, 26, 28	2.0 pt	Solid	1 (Top)
 Minor Roads	#FB9A99	251, 154, 153	1.5 pt	Solid	2
