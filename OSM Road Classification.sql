@@ -1,3 +1,14 @@
+-- Road Classification Symbology (Prioritized)
+/*
+Road Type	Color (Hex)	RGB Values	Line Width	Line Style	Draw Order
+Major Roads	#E31A1C	227, 26, 28	2.0 pt	Solid	1 (Top)
+Minor Roads	#FB9A99	251, 154, 153	1.5 pt	Solid	2
+Local Roads	#6A3D9A	106, 61, 154	1.0 pt	Solid	3
+Non-Motorized Paths	#33A02C	51, 160, 44	0.6 pt	Dashed (---)	4
+Specialized Tracks	#B15928	177, 89, 40	0.6 pt	Dash-Dot (-.-.-)	5
+Other	#B2DF8A	178, 223, 138	0.5 pt	Dotted (•••)	6 (Bottom)
+*/
+
 -- This statement adds a new column named 'road_class' to the 'roads' table in the 'public' schema
 -- The column will store character strings up to 20 characters in length
 ALTER TABLE public.roads ADD COLUMN road_class VARCHAR(20);
